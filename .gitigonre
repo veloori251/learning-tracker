@@ -1,1 +1,15 @@
-/.idea
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore target directory (if using Maven/Gradle)
+/target/
+/build/
+
+# Ignore OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore logs and temp files
+*.log
+*.class
